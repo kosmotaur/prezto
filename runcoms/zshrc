@@ -15,5 +15,6 @@ fi
 alias srv="python -m SimpleHTTPServer"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
-nvm alias default v0.10 2>&1 > /dev/null
+nvm alias default v0.12 2>&1 > /dev/null
 nvm use default 2>&1 > /dev/null
+eval `docker-machine env docker`
